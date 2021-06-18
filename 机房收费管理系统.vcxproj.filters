@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\Layers">
+      <UniqueIdentifier>{0b78aec0-4c3d-40d3-8a57-c8a3e3cbb2fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Layers">
+      <UniqueIdentifier>{8effe71f-8c94-4faa-b652-e8422553a4e9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="机房收费管理系统.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonHelper.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="computer_room.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AllStudentDisplayLayer.cpp">
+      <Filter>源文件\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="ComputerUsageLayer.cpp">
+      <Filter>源文件\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="MainLayer.cpp">
+      <Filter>源文件\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="RequestLayer.cpp">
+      <Filter>源文件\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="StudentModifyLayer.cpp">
+      <Filter>源文件\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="StudentSearchLayer.cpp">
+      <Filter>源文件\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="RevertLayer.cpp">
+      <Filter>源文件\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="student_list.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="computer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="student.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleTables.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StudentAddLayer.cpp">
+      <Filter>源文件\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="StudentDeleteLayer.cpp">
+      <Filter>源文件\Layers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="computer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="student.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="computer_room.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonHelper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AllStudentDisplayLayer.h">
+      <Filter>头文件\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="ComputerUsageLayer.h">
+      <Filter>头文件\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="ILayer.h">
+      <Filter>头文件\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="MainLayer.h">
+      <Filter>头文件\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="RequestLayer.h">
+      <Filter>头文件\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="RevertLayer.h">
+      <Filter>头文件\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="StudentModifyLayer.h">
+      <Filter>头文件\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="StudentSearchLayer.h">
+      <Filter>头文件\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="student_list.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleTables.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StudentAddLayer.h">
+      <Filter>头文件\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="StudentDeleteLayer.h">
+      <Filter>头文件\Layers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Computers.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="Students.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

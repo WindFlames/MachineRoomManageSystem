@@ -1,0 +1,4 @@
+3
+201905050505	aa	bbb	0	-1	-1	1220
+312132	sdasd	bbb	0	-1	-1	321
+\MachineRoomManageSystem
